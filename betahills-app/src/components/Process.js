@@ -1,8 +1,7 @@
 import React from 'react'
-
 function Process() {
     return (
-        <div className = "bg-white pl-28 py-16">
+        <div className = "process pl-28 py-16 text-blue-800">
            <div className="w-4/6 p-8">
                <h1 className ="text-6xl text-justify">Seamless integration.<br/>Thorough testing<br/>Better result</h1>
            </div>
