@@ -1,5 +1,7 @@
-.App {
-  text-align: center;
+.h-screen {
   background-color: #96d2aa;
-  height: 1000px;
+}
+
+.header {
+  background-color: #96d2aa;
 }
