@@ -6,6 +6,7 @@ import Process from "./components/Process"
 import Solutions from "./components/Solutions"
 import CaseStudy from "./components/CaseStudy"
 import Impact from "./components/Impact"
+import Contact from "./components/Contact"
 function App() {
   return (
     <div className="App">
@@ -16,6 +17,7 @@ function App() {
    <Solutions />
    <CaseStudy/>
    <Impact />
+   <Contact />
     </div>
   );
 }

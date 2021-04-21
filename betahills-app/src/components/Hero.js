@@ -6,7 +6,7 @@ function Hero() {
             <div className = "p-28">
             <h1 className="text-6xl tracking-wider text-blue-900"> We do software testing <br/>for flawless products. <br/>With purpose</h1>
             </div>
-           <div><Button /></div>
+           <div><Button text="Get in touch"/></div>
         </div>
     )
 }
