@@ -2,7 +2,7 @@ import React from 'react'
 
 function About() {
     return (
-        <div className = "bg-white pl-28 py-16">
+        <div className = "bg-white pl-28 py-16 text-blue-800">
            <div className="w-4/6 p-8">
                <h1 className ="text-6xl text-justify">Our expert testers <br/>handle quality assurance <br/>so you can focus on <br/>building your ideas.</h1>
            </div>
