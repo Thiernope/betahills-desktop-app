@@ -6,7 +6,7 @@ function Header() {
         borderBottom: "1px solid #0100CD",
     }
     return (
-        <nav style = {headerBorder } className="px-20 py-5 bg-transparent flex justify-between items-center text-base sticky top-0">
+        <nav style = {headerBorder } className=" header px-20 py-5 bg-transparent flex justify-between items-center text-base sticky top-0">
             <div className ="w-40 flex justify-around items-center">
                <div className="">
                    <img src={Logo} alt="betahills logo" className="w-10"/>
