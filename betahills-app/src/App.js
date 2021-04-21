@@ -8,6 +8,7 @@ function App() {
    <Header />
    <Hero />
    <About />
+   <Process />
     </div>
   );
 }
