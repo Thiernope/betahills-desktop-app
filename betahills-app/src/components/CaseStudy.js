@@ -18,8 +18,8 @@ function CaseStudy() {
             <img src={Global} alt="global" className="w-30 h-20"/>
             <img src={Jibu} alt="Jibu" className="w-20 h-20"/>
             <img src={GlobalExecel} alt="GlobalExecel" className="w-20 h-20"/>
-            <img src={Dalia} alt="Dalia" className="w-20 h-20"/>
-            <img src={Coformatique} alt="coformatique" className="w-20 h-20"/>
+            <img src={Dalia} alt="Dalia" className="w-30 h-20"/>
+            <img src={Coformatique} alt="coformatique" className="w-30 h-20"/>
             </div>
         </div>
      </div>

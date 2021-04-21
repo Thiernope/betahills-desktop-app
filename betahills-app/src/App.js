@@ -5,6 +5,7 @@ import About from "./components/About"
 import Process from "./components/Process"
 import Solutions from "./components/Solutions"
 import CaseStudy from "./components/CaseStudy"
+import Impact from "./components/Impact"
 function App() {
   return (
     <div className="App">
@@ -14,6 +15,7 @@ function App() {
    <Process />
    <Solutions />
    <CaseStudy/>
+   <Impact />
     </div>
   );
 }
