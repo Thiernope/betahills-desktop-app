@@ -1,6 +1,7 @@
 import React from 'react'
 import Logo from "./images/Logo.png"
-import { Link } from "react-router-dom"
+import { Anchor } from 'antd';
+const { Link } = Anchor;
 function Header() {
     const headerBorder = {
         borderBottom: "1px solid #0100CD",
@@ -11,30 +12,26 @@ function Header() {
                <div className="">
                    <img src={Logo} alt="betahills logo" className="w-10"/>
                </div>
-               <div className="text-lg text-blue-900">betahills</div>
+               <div className="text-lg">betahills</div>
             </div>
-            <div className="w-1/2 flex justify-around text-lg text-blue-900">
-                <Link to ="">
-                    About
-                </Link>
-                <Link to ="">
-                    Process
-                </Link>
-                <Link to ="">
-                    Solutions
-                </Link>
-
-                <Link to ="">
-                    Case Studies
-                </Link>
-                <Link to ="">
-                    Impact
-                </Link>
-
-                <Link to ="">
-                    Contact
-                </Link>
-                </div>
+            <div className="w-1/2 flex justify-around text-lg">
+            <Anchor className="anchor">
+                <Link href="#about" title="About"/>
+             </Anchor>
+             <Anchor className="anchor">
+             <Link href="#process" title="Process" />
+             </Anchor>
+        
+             <Anchor className="anchor">
+             <Link href="#caseStudy" title="Case Study" />
+             </Anchor>
+             <Anchor className="anchor">
+             <Link href="#impact" title="Impact" />
+             </Anchor>
+             <Anchor className="anchor">
+             <Link href="#contact" title="Contact" />
+             </Anchor>
+            </div>
         </nav>
     )
 }
