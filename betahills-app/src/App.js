@@ -7,6 +7,11 @@ import Solutions from "./components/Solutions"
 import CaseStudy from "./components/CaseStudy"
 import Impact from "./components/Impact"
 import Contact from "./components/Contact"
+import Footer from "./components/Footer"
+import AOS from "aos";
+import "aos/dist/aos.css";
+AOS.init();
+
 function App() {
   return (
     <div className="App">
@@ -18,6 +23,7 @@ function App() {
    <CaseStudy/>
    <Impact />
    <Contact />
+   <Footer />
     </div>
   );
 }
