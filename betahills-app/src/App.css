@@ -1,3 +1,7 @@
+.App {
+  color: #0100cd;
+}
+
 .h-screen {
   background-color: #96d2aa;
 }
@@ -7,4 +11,21 @@
 }
 .process {
   background-color: #96d2aa;
+}
+
+.anchor:hover {
+  font-weight: 500;
+  border-bottom: 2px solid blue;
+}
+
+.anchor:active {
+  font-size: 18px;
+}
+
+.btn:hover {
+  background-color: #0100cd;
+}
+
+.btn {
+  border: 1px solid #0100cd;
 }

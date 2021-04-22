@@ -8,6 +8,7 @@ import CaseStudy from "./components/CaseStudy"
 import Impact from "./components/Impact"
 import Contact from "./components/Contact"
 import Footer from "./components/Footer"
+//import { Switch, Route } from "react-router-dom"
 import AOS from "aos";
 import "aos/dist/aos.css";
 AOS.init();
@@ -18,13 +19,13 @@ function App() {
    <Header />
    <Hero />
    <About />
-   <Process />
    <Solutions />
-   <CaseStudy/>
+   <Process />
+   <CaseStudy />
    <Impact />
    <Contact />
    <Footer />
-    </div>
+</div>
   );
 }
 

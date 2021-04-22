@@ -2,18 +2,18 @@ import React from 'react'
 
 function Solutions() {
     return (
-        <div className = "text-blue-800">
+        <div  id="solutions" className = "">
         <div className = "bg-white pl-28 py-16">
            <div className="w-4/6 p-8">
                <h1 className ="text-6xl text-justify" data-aos="zoom-in">Manual Testing.</h1>
            </div>
 
-           <div className = "flex flex-col items-end" data-aos="zoom-in">
-               <p className="w-1/2 p-8 text-justify"> 
-               We take the role of the user and test your products in terms of functionality, design, and usability. <br/><br/> We offer the following manual testing services for web, mobile, and desktop apps: <br/><br/>
+           <div className = "flex flex-col ml-96 pl-20" data-aos="zoom-in">
+               <p className="w-3/4 p-8 text-justify"> 
+               We take the role of the user and test your products in terms of functionality, design, and usability. <br/><br/> We offer the following manual testing services for web, mobile, and desktop apps: <br/>
                </p>
 
-               <ul className ="p-12 list-disc w-1/2">
+               <ul className ="px-12 list-disc w-1/2">
                    <li>Test plan creation </li>
                    <li>Functional testing</li>
                    <li>Regression testing</li>
@@ -30,13 +30,13 @@ function Solutions() {
                <h1 className ="text-6xl text-justify">Automated Testing.</h1>
            </div>
 
-           <div className = "flex flex-col items-end" data-aos="zoom-in">
-               <p className="w-1/2 p-8 text-justify"> 
+           <div className = "flex flex-col ml-96 pl-20" data-aos="zoom-in">
+               <p className="w-3/4 p-8 text-justify"> 
                Save time and increase your testing coverage with automated testing.
-We offer the following automated testing services for web, mobile, and desktop apps: <br/><br/>
+We offer the following automated testing services for web, mobile, and desktop apps: <br/>
                </p>
 
-               <ul className ="p-12 list-disc w-1/2">
+               <ul className ="px-12 list-disc w-1/2">
                    <li>API testing </li>
                    <li>Regression testing</li>
                    <li>Ruby, Python</li>
@@ -53,8 +53,8 @@ We offer the following automated testing services for web, mobile, and desktop a
                <h1 className ="text-6xl text-justify">Performance testing.</h1>
            </div>
 
-           <div className = "flex flex-col items-end" data-aos="zoom-in">
-               <p className="w-1/2 p-8 text-justify"> 
+           <div className = "flex flex-col ml-96 pl-20" data-aos="zoom-in">
+               <p className="w-3/4 p-8 text-justify"> 
                Ensure customer satisfaction by guaranteeing optimal performance during standard and peak workloads. We identify key performance criteria, provide you with information about speed, stability and scalability, and determine which areas need improvement.
                </p>
            </div>
